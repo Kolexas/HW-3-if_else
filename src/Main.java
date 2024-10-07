@@ -62,5 +62,7 @@ public class Main {
         if (passagerNum >= 60) {
             System.out.print(typeofseat2 + " место.");
         }
+        // Задание 7
+
       }
     }
