@@ -1,13 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        // Задание 1
         int age = 15;
         System.out.print(" 1. Если возраст человека равен " + age + ", то");
         if (age >= 18) {
             System.out.print(" он совершеннолетний.");
         } else
             System.out.print(" он не достиг совершеннолетия, нужно немного подождать.");
-        // Задание 2
         int airTemperature = 6;
         boolean coldOutside = airTemperature < 5;
         System.out.print("\n 2. На улице " + airTemperature + " градусов,");
@@ -15,14 +13,12 @@ public class Main {
             System.out.print(" нужно надеть шапку.");
         } else
             System.out.print(" можно идти без шапки.");
-        // Задание  3
         int speed = 70;
         System.out.print("\n 3. Если скорость " + speed + ", то ");
         if (speed > 60) {
             System.out.print("придется платить  штраф");
         } else
             System.out.print(" можно ездить спокойно");
-        // Задание 4
         int personAge = 30;
         System.out.print("\n 4. Если возраст человека равен " + personAge + ", то ему нужно ходить");
         if (personAge >= 2 && personAge <= 6)  {
@@ -37,7 +33,6 @@ public class Main {
         if (personAge > 24) {
             System.out.print(" на работу.");
         }
-        // Задание 5
         int childAge = 30;
         System.out.print("\n 5. Если возраст ребёнка равен " + childAge + ", то ему");
         if (childAge <= 5) {
@@ -49,7 +44,6 @@ public class Main {
         if (childAge >= 15) {
             System.out.print(" можно кататься без сопровождения взрослого.");
         }
-        // Задание 6
         int carCapacity = 102;
         int seatsNum = 60;
         int passagerNum = 60;
@@ -66,7 +60,6 @@ public class Main {
         if (passagerNum >= seatsNum) {
             System.out.print(typeOfSeat2 + " место.");
         }
-        // Задание 7
         int one = 120;
         int two = 200;
         int three = 130;
