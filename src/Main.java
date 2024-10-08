@@ -36,7 +36,7 @@ public class Main {
         if (personAge > 24) {
             System.out.print(" на работу.");
         }
-        int childAge = 5;
+        int childAge = 14;
         System.out.print("\n 5. Если возраст ребёнка равен " + childAge + ", то ему");
         if (childAge < 5) {
             System.out.print(" нельзя кататься на аттракционе.");
@@ -64,18 +64,20 @@ public class Main {
         if (passagerNum >= seatsNum) {
             System.out.print(typeOfSeat2 + " место.");
         }
-        int one = 120;
+        int one = 300;
         int two = 200;
         int three = 130;
         System.out.print("\n 7. Наибольшее число из трёх - " );
         if (one >= two && one >= three) {
             System.out.print(one);
-         }
+         } else {
         if (two >= one && two >= three) {
             System.out.print(two);
+        } else {
+            if (three >= one && two >= one) {
+                System.out.print(three);
+            }
         }
-        if (three >= one && two >= one) {
-            System.out.print(three);
-        }
-    }
+      }
+   }
 }
