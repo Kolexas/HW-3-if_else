@@ -28,13 +28,13 @@ public class Main {
         // Задание 4
         int personAge = 30;
         System.out.print("\n 4. Если возраст человека равен " + personAge + ", то ему нужно ходить");
-        if (personAge >= 2 && personAge <= 6)  {
+        if (personAge >= 2 && personAge <= 6) {
             System.out.print(" в детский сад.");
         }
-        if (personAge >= 7 && personAge <= 17)  {
+        if (personAge >= 7 && personAge <= 17) {
             System.out.print(" в школу.");
         }
-        if (personAge >= 18 && personAge <= 24)  {
+        if (personAge >= 18 && personAge <= 24) {
             System.out.print(" в университет.");
         }
         if (personAge > 24) {
@@ -44,10 +44,10 @@ public class Main {
         int childAge = 13;
         boolean adultPresent = false;
         System.out.print("\n 5. Если возраст ребёнка равен " + childAge + ", то ему");
-        if (childAge < 5 || childAge < 14 && adultPresent==false) {
+        if (childAge < 5 || childAge < 14 && adultPresent == false) {
             System.out.print(" нельзя кататься на аттракционе.");
         }
-        if (childAge >=5 && childAge < 14 && adultPresent) {
+        if (childAge >= 5 && childAge < 14 && adultPresent) {
             System.out.print(" можно кататься в сопровождении взрослого.");
         }
         if (childAge >= 14) {
@@ -59,33 +59,31 @@ public class Main {
         int passagerNum = 60;
         String typeOfSeat1 = "cидячее";
         String typeOfSeat2 = "стоячее";
-            System.out.print("\n 6. Если количество пассажиров равно " + passagerNum + ", то");
+        System.out.print("\n 6. Если количество пассажиров равно " + passagerNum + ", то");
         if (passagerNum >= carCapacity) {
             System.out.println(" вагон уже забит");
         } else {
             System.out.print(" в вагоне есть ");
         }
         if (passagerNum < seatsNum && passagerNum >= 0) {
-                System.out.print( typeOfSeat1 + " место." );
-            }
+            System.out.print(typeOfSeat1 + " место.");
+        }
         if (passagerNum >= seatsNum) {
             System.out.print(typeOfSeat2 + " место.");
         }
         // Задание 7
-        int one = 600;
-        int two = 500;
-        int three = 400;
-        System.out.print("\n 7. Наибольшее число из трёх - " );
-        if (one >= two && one >= three) {
+        int one = 2000;
+        int two = 2100;
+        int three = 2300;
+        System.out.print("\n 7. Наибольшее число из трёх - ");
+            if (one >= two && one >= three) {
             System.out.print(one);
-         } else {
-        if (two >= one && two >= three) {
-            System.out.print(two);
-        } else {
-            if (three >= one && three >= one) {
+            }
+            if (two >= one && two >= three) {
+                System.out.print(two);
+            }
+            if (three >= two && three >= one) {
                 System.out.print(three);
             }
         }
-      }
-   }
-}
+    }
