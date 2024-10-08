@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        // Задание 1
         int age = 15;
         System.out.print(" 1. Если возраст человека равен " + age + ", то");
         if (age >= 18) {
@@ -7,7 +8,8 @@ public class Main {
         } else {
             System.out.print(" он не достиг совершеннолетия, нужно немного подождать.");
         }
-        int airTemperature = 6;
+        // Задание 2
+        int airTemperature = 4;
         boolean coldOutside = airTemperature < 5;
         System.out.print("\n 2. На улице " + airTemperature + " градусов,");
         if (coldOutside) {
@@ -15,6 +17,7 @@ public class Main {
         } else {
             System.out.print(" можно идти без шапки.");
         }
+        // Задание 3
         int speed = 70;
         System.out.print("\n 3. Если скорость " + speed + ", то ");
         if (speed > 60) {
@@ -22,6 +25,7 @@ public class Main {
         } else {
             System.out.print(" можно ездить спокойно");
         }
+        // Задание 4
         int personAge = 30;
         System.out.print("\n 4. Если возраст человека равен " + personAge + ", то ему нужно ходить");
         if (personAge >= 2 && personAge <= 6)  {
@@ -36,17 +40,20 @@ public class Main {
         if (personAge > 24) {
             System.out.print(" на работу.");
         }
-        int childAge = 14;
+        // Задание 5
+        int childAge = 13;
+        boolean adultPresent = false;
         System.out.print("\n 5. Если возраст ребёнка равен " + childAge + ", то ему");
-        if (childAge < 5) {
+        if (childAge < 5 || childAge < 14 && adultPresent==false) {
             System.out.print(" нельзя кататься на аттракционе.");
         }
-        if (childAge >=5 && childAge <= 14) {
+        if (childAge >=5 && childAge < 14 && adultPresent) {
             System.out.print(" можно кататься в сопровождении взрослого.");
         }
-        if (childAge > 14) {
+        if (childAge >= 14) {
             System.out.print(" можно кататься без сопровождения взрослого.");
         }
+        // Задание 6
         int carCapacity = 102;
         int seatsNum = 60;
         int passagerNum = 60;
@@ -64,9 +71,10 @@ public class Main {
         if (passagerNum >= seatsNum) {
             System.out.print(typeOfSeat2 + " место.");
         }
-        int one = 300;
-        int two = 200;
-        int three = 130;
+        // Задание 7
+        int one = 600;
+        int two = 500;
+        int three = 400;
         System.out.print("\n 7. Наибольшее число из трёх - " );
         if (one >= two && one >= three) {
             System.out.print(one);
@@ -74,7 +82,7 @@ public class Main {
         if (two >= one && two >= three) {
             System.out.print(two);
         } else {
-            if (three >= one && two >= one) {
+            if (three >= one && three >= one) {
                 System.out.print(three);
             }
         }
